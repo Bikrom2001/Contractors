@@ -1,0 +1,93 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .remonce{
+        display: none;
+        border-bottom: none;
+    }
+    .header-text h1 {
+        font-size: 30px;
+        padding-top: 80px;
+       
+      
+      }
+      .header-text p {
+        font-size: 20px;
+        padding-left: 0;
+      
+      }
+      .hero-btn{
+        background: #FFBC13;
+        color: white;
+        padding: 8px 20px;
+        transition: 0.6s;
+        font-size: 13px;
+      }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .remonce{
+        display: none;
+        border-bottom: none;
+    }
+    .header-text h1 {
+        font-size: 40px;
+        padding-top: 80px;
+       
+      
+      }
+      .header-text p {
+        font-size: 25px;
+        padding-left: 0;
+      
+      }
+      .hero-btn{
+        background: #FFBC13;
+        color: white;
+        padding: 10px 22px;
+        transition: 0.6s;
+        font-size: 16px;
+      }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .remonce{
+        display: none;
+        border-bottom: none;
+    }
+    .header-text h1 {
+        font-size: 50px;
+        padding-top: 50px;
+       
+      
+      }
+      .header-text p {
+        font-size: 30px;
+        padding-left: 0;
+      
+      }
+      .hero-btn{
+        background: #FFBC13;
+        color: white;
+        padding: 10px 22px;
+        transition: 0.6s;
+        font-size: 16px;
+      }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}

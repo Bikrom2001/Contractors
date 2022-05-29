@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rokkitt', serif;
+*/
+body{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+ h1,h2,h3,h4,h5{
+  font-family: 'Montserrat', sans-serif;
+} 
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('img/02.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+}
+
+.bg-red {
+  background-color: #7b7f7a57;
+}
+
+.header-text{
+  padding-top: 30px ;
+  text-align: left;
+  margin-bottom: 2%;
+  
+}
+.header-text h1 {
+  font-size: 65px;
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 8px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.header-text p {
+  font-size: 33px;
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-family: 'Rokkitt', serif;
+  letter-spacing: 5px;
+  
+  
+}
+
+.hero-btn{
+  background: #FFBC13;
+  color: white;
+  padding: 10px 25px;
+  transition: 0.6s;
+}
+.hero-btn:hover{
+  background: #4B4B4B;
+  color: white;
+}
+.hero-btn2{
+  background: #f8f8f8;
+  color: black;
+  padding: 10px 22px;
+  transition: 0.6s;
+}
+.hero-btn2:hover{
+  background: #4B4B4B;
+  color: white;
+}
+
+/* MAIN SERVICES */
+
+.section-padding{
+  padding: 70px 0;
+}
+.section-title h2{
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  margin-bottom: 5%;
+}
+.matn-item{
+  position: relative;
+}
+.about-icon i{
+  position: absolute;
+  font-size: 37px;
+  background: #FFBC13;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  left: 0;
+  top: 0;
+}
+.main-icons .name{
+  position: absolute;
+  font-size: 37px;
+  color: #FFBC13;
+  left: -40;
+  top: 0;
+}
+h3{
+  padding-left: 90px;
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+}
+p{
+  padding-left: 90px;
+  color: gray;
+}
+.matn-item:hover .about-icon i {
+  color: #FFBC13;
+  background: none;
+  border: 2px solid #FFBC13;
+}
+.matn-item:hover h3 {
+    color: #FFBC13;
+  }
+
+  /* FEATURED WORK */
+
+  .fratured{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  }
+
+  .section-title2 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+  }
+  .line-1 {
+    height: 3px;
+    width: 60px;
+    background-color: #ffbc13;
+    margin-top: -1.5px;
+    margin-bottom: 5%;
+}
+
+.single-protfolto-tittle  {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 0.4s;
+  /* display: flex; */
+  align-items: center;
+  bottom: -100%;
+  
+
+
+}
+
+
+.single-protfolto{
+  position: relative;
+  overflow: hidden;
+  
+}
+.single-protfolto-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(157, 158, 158, 0.3),rgba(234, 234, 236, 0.7));
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: 0.4s;
+} 
+.single-protfolto:hover .single-protfolto-overlay{
+  top: 0;
+
+}
+.single-protfolto:hover .single-protfolto-tittle{
+ bottom: -70%;
+  
+}
+.single-protfolto-tittle h4{
+  font-size: 14px;
+  text-align: center;
+  color: #FFBC13;
+}
+
+/* WHY CHOOSE US? */
+
+/* WHAT WE OFFER */
+
+.offer{
+  background:#F8F8F8;
+}
+
+.card2{
+  border: none;
+}
+.p-deshin{
+  padding-left: 0;
+}
+.hero-btn4{
+  background: #FFBC13;
+  color: white;
+  /* padding: 10px 25px; */
+  transition: 0.6s;
+}
+.hero-btn4:hover{
+  background: #4B4B4B;
+  color: white;
+}
+
+/* AWESOME FACTS */
+
+.awsome{
+  height: 440px;
+  width: 100%;
+  background-image: linear-gradient(rgba(2, 4, 12, 0.7),rgba(2, 5, 17, 0.7)),url('img/01.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.section-title5 h1 {
+  color: white;
+  font-size: 54px;
+  letter-spacing: 10px;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: right;
+  font-weight: 700;
+}
+.section-title5 h2{
+  font-size: 27px;
+  font-family: 'Rokkitt', serif;
+  letter-spacing: 5px;
+
+  
+}
+.scrollTop {
+  width: 40px;
+  height: 40px;
+  background: #FFBC13;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 9px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  transition: all 0.4s;
+  /* display: none; */
+}
+.scrollTop:hover{
+  background: #6776f4;
+  color: #fff;
+}
+.scrollTop a{
+  color: #fff;
+}
+.scrollTop i {
+  font-size: 30px;
+}
